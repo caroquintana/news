@@ -1,1 +1,84 @@
-/* Holiii otra vez */
+/*nav*/
+*{
+	font-family: 'Merriweather', sans-serif;
+	list-style: none;
+	text-decoration: none;
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+.navbar{
+	font-size: 17px;
+}
+a.navbar-header {
+	margin-left: 100px;
+	color: black;
+	font-weight: 900;
+	margin-top: 10px;
+	font-size: 20px;
+	display: inline-flex;
+}
+
+li{
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+}
+
+li:hover {
+    background-color: #e7e7e7;
+    color: white;
+}
+
+.navbar-nav{
+	margin-right: 60px;
+}
+
+.navbar-toggle{
+    margin-top: 23px;
+}
+
+.navbar-header {
+    float: none;
+}
+
+.navbar-right {
+    float: left!important;
+}
+.navbar-default {
+	background-color: #fff;
+	border-color: none;
+	padding-left: 98px;
+}
+
+.buscador{
+	float: right;
+}
+
+.navbar-nav>li>a {
+    color: #777;
+    display: flex;
+}
+
+.punto {
+	color: #eb474a;
+}
+.buscador{
+	background-color: #eb474a;
+	border: #eb474a;
+}
+
+/*header*/
+
+.col-xs-12.header {
+    margin-top: 167px;
+}
+
+.dosimagenes{
+	display: inline-flex;
+}
+
+.cuatronoticias{
+	
+}
